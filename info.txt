@@ -5,3 +5,27 @@ https://wporganic.com/html/cathedral-church/version1/index.html
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             font-family: "Playfair Display", serif;
+
+
+
+
+            .text{
+    height: 1250px;
+    width: 2000px;
+}
+.text h1{
+padding-top: 100px ;
+padding-left: 75px;
+font-size: 0px;
+line-height: 80px;
+text-align: start;
+font-family: "Playfair Display", serif;
+visibility: visible;
+color: black;
+}
+.text p{
+    color:#606060;
+    font-size: 35px;
+    padding-left: 75px;
+}
+
