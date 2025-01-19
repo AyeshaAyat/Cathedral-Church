@@ -1,0 +1,7 @@
+https://wporganic.com/html/cathedral-church/version1/index.html
+<i class="fa-solid fa-magnifying-glass"></i>
+<div class="search">
+                <button>Donate</button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            font-family: "Playfair Display", serif;
