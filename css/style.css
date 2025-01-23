@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    margin: 0 auto;
+    width: 2020px;
+}
 /* ALL COMMON CSS END  */
 
 /* HEADERPART STYLE START  */
@@ -129,11 +133,10 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 margin: 0 auto;
-position: relative;
 }
 .overly2{
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 400px 0 600px 0;
+    padding: 400px 0;
     text-align: center;
 }
 .overly2 h1{
@@ -149,72 +152,111 @@ position: relative;
     font-size: 45px;
     line-height: 25px;
     font-family: "Source Sans Pro", sans-serif;
-    padding-bottom: 130px;
+    padding-bottom: 150px;
 }
-.k1{
-    height: 300px;
-    width: 320px;
+.flexservice{
+    display: flex;
+    justify-content: space-between;
+}
+.serviceitem{
+    width: 11%;
     background-color:#E6E6E6;
-    position: absolute;
-    bottom: 220px;
-    left: 1800px;
-    align-items: center;
-}
-.k1:hover{
-    background-color: #E4B855;
-}
-.k1 i{
-    font-size: 100px;
-    padding-top: 40px;
-    padding-left: 108px;
-}
-.k1 p{
-    font-size: 30px;
-    padding-top: 40px;
     text-align: center;
+    padding:30px;
+transition: .4s;
+-webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
 }
-.k2{
-    height: 300px;
-    width: 320px;
-    background-color:#E6E6E6;
-    position: absolute;
-    bottom: 220px;
-    left: 2300px;
-    align-items: center;
-}
-.k2:hover{
+.serviceitem:hover{
     background-color: #E4B855;
+    color: #fff;
 }
-.k2 i{
+.serviceitem i{
     font-size: 100px;
-    padding-top: 40px;
-    padding-left: 108px;
+    -webkit-box-shadow: 0px 0px 11px -96px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -96px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px -96px rgba(0,0,0,0.75);
 }
-.k2 p{
+.serviceitem h3{
     font-size: 30px;
-    padding-top: 40px;
-    text-align: center;
+    font-weight: 400px;
+    text-transform: uppercase;
+    padding-top: 60px;
 }
-.k3{
-    height: 300px;
-    width: 320px;
-    background-color:#E6E6E6;
-    position: absolute;
-    bottom: 220px;
-    left: 2800px;
-    align-items: center;
-}
-.k3:hover{
-    background-color: #E4B855;
-}
-.k3 i{
-    font-size: 100px;
-    padding-top: 40px;
-    padding-left: 108px;
-}
-.k3 p{
-    font-size: 30px;
-    padding-top: 40px;
-    text-align: center;
-}
+
 /* 3rd PART END  */
+
+/* 4th PART START  */
+
+.main{
+    width: 100%;
+    height: 1200px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+.main h1{
+    font-size: 80px;
+    padding-top: 220px;
+}
+.main img{
+    height: 105px;
+    width: 600px;
+}
+.main p{
+    font-size: 50px;
+    color: #606060;
+    padding-top: 8px;
+}
+.parentu{
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+}
+.kid1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+}
+.kid1 h1{
+    font-size: 80px;
+    color: black;
+    display: inline-block;
+}
+.kid2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../images/who-img-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+}
+.kid3{
+    position: absolute;
+    padding-top: 300px;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+    width: 50%;
+}
+kid4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../images/who-img-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+}
+/* 4th PART END  */
